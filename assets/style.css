@@ -137,7 +137,7 @@ p {
 }
 
 .btn:focus {
-    color: white;
+    color: black;
     padding: 10px;
     height: 100px;
     background: yellow;
@@ -154,4 +154,22 @@ p {
     border-style: solid;
     border-width: 2px;
     border-color: darkslategray;
+}
+
+#warning {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: darkred;
+    color: darkred;
+    top: 200px;
+    z-index: 1;
+    position: fixed;
+    margin-left: 190px;
+    line-height: 630px;
+    height: 600px;
+    width:  600px;
+    text-align: center;
+    background: darkgoldenrod;
+    font-size: 50px;
+    font-weight: 800;
 }
